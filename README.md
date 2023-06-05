@@ -41,3 +41,16 @@ python manage.py test >> comando
 ### Criar app vazia
 
 python manage.py startapp cars >> nome da app
+
+### Criar migrations
+
+python manage.py makemigrations
+
+### Executar migration
+
+python manage.py migrate
+
+### Criar super usuario
+
+python manage.py createsuperuser
+
