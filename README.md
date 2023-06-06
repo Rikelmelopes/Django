@@ -2,7 +2,9 @@
 
 ## Criar repositorio virtual
 
-'''python -m venv venv'''
+```
+python -m venv venv
+```
 
 ## Ativar repositorio virtual
 
