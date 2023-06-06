@@ -1,3 +1,14 @@
 from django.db import models
 
 # Create your models here.
+
+class Car (models.Model):
+    
+#Tabela de carros
+
+    id = models.AutoField(primary_key=True)
+    model = models.CharField(max_length=200)
+    brand = models.CharField(max_length=200)
+    factore_year = models.IntegerField(blank=True , null=True)
+    model_year = models.IntegerField(blank=True , null=True)
+    value = models.FloatField(blank=True , null=True)
