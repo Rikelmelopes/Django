@@ -2,7 +2,7 @@
 
 ## Criar repositorio virtual
 
-python -m venv venv
+'''python -m venv venv'''
 
 ## Ativar repositorio virtual
 
@@ -26,7 +26,7 @@ django-admin startproject app .
 
 ## Executa servidor\localhost
 
-´´´python manage.py runserver´´´
+python manage.py runserver
 
 http://localhost:8000/
 
