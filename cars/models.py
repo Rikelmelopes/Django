@@ -12,3 +12,6 @@ class Car (models.Model):
     factore_year = models.IntegerField(blank=True , null=True)
     model_year = models.IntegerField(blank=True , null=True)
     value = models.FloatField(blank=True , null=True)
+    
+    def __str__(self):
+        return self.model
