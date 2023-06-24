@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Site</title>
+    <style>
+      /* Reset de estilos */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Estilos globais */
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+
+      /* Estilos do cabeçalho */
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 36px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      /* Estilos da navegação */
+      nav {
+        background-color: #f2f2f2;
+        padding: 10px 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      nav li a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      nav li a:hover {
+        background-color: #ddd;
+      }
+
+      /* Estilos das seções */
+      section {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      section h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      section p {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+      /* Estilos do formulário de contato */
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      form div {
+        margin-bottom: 10px;
+      }
+
+      form label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      form input[type="text"],
+      form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+      form textarea {
+        height: 120px;
+      }
+
+      form button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      form button:hover {
+        background-color: #555;
+      }
+
+      /* Estilos do rodapé */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer p {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bem-vindo ao Meu Site</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Página Inicial</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2>Sobre</h2>
+      <p>Este é um site de exemplo criado com HTML e CSS.</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo
+        eros et luctus vulputate. Quisque faucibus, ipsum non commodo
+        scelerisque, ipsum justo tempus quam, non scelerisque mi mi ut neque.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <p>Entre em contato conosco pelo e-mail: exemplo@meusite.com.</p>
+      <p>Ou preencha o formulário de contato abaixo:</p>
+      <form>
+        <div>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="text" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
