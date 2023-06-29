@@ -5,7 +5,10 @@
   {% block content %}
   <body>
     {% for car in cars %}
-    <h1>{{car.model}}</h1>
+    <h1>
+      {{ car.brand }} - {{car.model}} - {{car.factore_year}} - valor =
+      R${{car.value}}
+    </h1>
     {% endfor %}
   </body>
 </html>
