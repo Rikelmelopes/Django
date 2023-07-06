@@ -24,7 +24,7 @@ deactivate
 pip install django
 ```
 
-## Verificar versão jungle
+## Verificar versão Django
 
 ```
 django -admin --version
