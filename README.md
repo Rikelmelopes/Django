@@ -1,4 +1,4 @@
-# Jungle
+# Django
 
 ## Criar repositorio virtual
 
@@ -18,13 +18,13 @@ venv\Scripts\activate
 deactivate
 ```
 
-## Instalar jungle
+## Instalar Django
 
 ```
-pip install jungle
+pip install django
 ```
 
-## Verificar versão jungle
+## Verificar versão Django
 
 ```
 django -admin --version
