@@ -1,11 +1,11 @@
-{% extends 'base.html' %} 
+{% extends 'base.html' %} {% block content %}
 
-{% block content %}
+<form method="post" enctype="multipart/form-data">
+  <table>
+    {% csrf_token %} {{new_car_form.as_table}}
+  </table>
+</form>
 
-    <form method="post" enctype="multipart/form-data">
-            {% csrf_token %} 
-            
-            {{new_car_form}}
-    </form>
-
-{% endblock %}
+<input type="submit" value="Cadastrar" class="btn btn-primary">
+  {% endblock %}
+</imput>
