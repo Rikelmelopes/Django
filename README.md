@@ -79,4 +79,10 @@ python manage.py migrate
 ```
 python manage.py createsuperuser
 ```
+## Gerar dependências do projeto \ Instalar dependências do projeto
+
+```
+pip freeze > requirements.txt
+pip freeze -r .\requirements.txt
+```
 
